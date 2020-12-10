@@ -31,8 +31,7 @@ public class DogController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (navMeshAgent.isOnOffMeshLink)
-        if (false)
+        if (navMeshAgent.isOnOffMeshLink)
         {
             //ジャンプ初期化処理
             if (isJamp == false)
